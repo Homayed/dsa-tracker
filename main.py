@@ -23,7 +23,7 @@ def menu():
             print("\n Invalid choice. Try again")
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": #built in
     menu()
 
 
