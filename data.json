@@ -22,5 +22,13 @@
         "difficulty": "Easy",
         "time_taken": 30,
         "solved_alone": "No"
+    },
+    {
+        "date": "2026-05-13",
+        "problem": "Right Time To Buy and Sell Stocks",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "time_taken": 35,
+        "solved_alone": "No"
     }
 ]
