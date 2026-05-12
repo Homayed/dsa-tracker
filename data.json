@@ -14,5 +14,13 @@
         "difficulty": "Easy",
         "time_taken": 30,
         "solved_alone": "Yes"
+    },
+    {
+        "date": "2026-05-13",
+        "problem": "Valid Anagram",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "time_taken": 30,
+        "solved_alone": "No"
     }
 ]
