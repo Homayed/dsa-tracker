@@ -1,10 +1,10 @@
 [
     {
-        "date": "2026-05-09",
+        "date": "2026-05-12",
         "problem": "Two Sum",
         "topic": "Arrays",
         "difficulty": "Easy",
-        "time_taken": 20,
+        "time_taken": 30,
         "solved_alone": "Yes"
     }
 ]

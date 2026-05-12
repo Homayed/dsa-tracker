@@ -29,3 +29,40 @@ def view_all_problems():
     print("\n DSA Practice Log:\n")
     for i, item in enumerate(data,1): #loop through index and value where index starts from 1
         print(f"{i}.{item['date']}| {item['problem']} | {item['topic']} | {item['difficulty']} | {item['time_taken']} | {item['solved_alone']}")
+
+def delete_problem():
+    data = load_data()
+    sequence_to_del = int(input("Give me the number of the problem set you want to delete?"))
+    if sequence_to_del:
+        deleted_item = data.pop(sequence_to_del-1)
+        print(f"{deleted_item} is deleted")
+        save_data(data)
+
+def search_problem():
+    data = load_data()
+    searching = input("Which problem u want to search?")
+    if not data:
+        print("\n No problems found.\n")
+        return
+    found = False
+
+
+    for item in data:
+        if "problem" in item:
+            if item["problem"].lower() == searching.lower():
+                print(item)
+                found = True
+
+    if found == False:
+        print("\nNo problem named this is found while searching\n")
+
+
+
+
+
+
+
+
+
+
+
