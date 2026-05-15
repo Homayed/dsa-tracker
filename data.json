@@ -38,5 +38,13 @@
         "difficulty": "Easy",
         "time_taken": 30,
         "solved_alone": "No"
+    },
+    {
+        "date": "2026-05-15",
+        "problem": "Move Zeroes",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "time_taken": 35,
+        "solved_alone": "No"
     }
 ]
