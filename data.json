@@ -54,5 +54,21 @@
         "difficulty": "Easy",
         "time_taken": 35,
         "solved_alone": "Yes"
+    },
+    {
+        "date": "2026-05-15",
+        "problem": "Remove Element",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "time_taken": 5,
+        "solved_alone": "Yes"
+    },
+    {
+        "date": "2026-05-15",
+        "problem": "Remove Duplicates from Sorted Array",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "time_taken": 2,
+        "solved_alone": "Yes"
     }
 ]
