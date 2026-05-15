@@ -46,5 +46,13 @@
         "difficulty": "Easy",
         "time_taken": 35,
         "solved_alone": "No"
+    },
+    {
+        "date": "2026-05-15",
+        "problem": "Maximum subarray",
+        "topic": "arrays",
+        "difficulty": "Easy",
+        "time_taken": 35,
+        "solved_alone": "Yes"
     }
 ]
