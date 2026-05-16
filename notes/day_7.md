@@ -72,3 +72,14 @@ Big-O understanding:
 
 Reflection:
 Today I understood the difference between the real values in an array and placeholder values. I also became more comfortable with Python slicing. The biggest lesson was that `nums1[:m]` is used to select only the meaningful part of the list, while `nums1[:] = ...` is used to update the original list itself. This helped me understand in-place modification more clearly.
+
+code:
+
+nums1[:] = sorted(nums1[:m] + nums2)
+
+Pattern: Array slicing + in-place update
+Data structure: List
+Time Complexity: O((m+n) log(m+n))
+Space Complexity: O(m+n)
+Main idea: Use nums1[:m] to keep only the real values from nums1, merge them with nums2, sort the result, then use nums1[:] to update the original nums1 list in-place.
+
