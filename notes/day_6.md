@@ -40,3 +40,22 @@ Big-O understanding:
 
 Reflection:
 Today I understood that some LeetCode problems do not care about what I return. Instead, they check if I changed the original input list. This helped me understand the difference between creating a new list and modifying an existing list in-place. I also became more comfortable with Python slicing, especially the meaning of `nums[:]`.
+
+code:
+
+lst1 = []
+lst2 = []
+
+for num in nums:
+    if num != 0:
+        lst1.append(num)
+    else:
+        lst2.append(num)
+
+nums[:] = lst1 + lst2
+
+Pattern: In-place array modification
+Data structure: Lists
+Time Complexity: O(n)
+Space Complexity: O(n)
+Main idea: Store non-zero numbers in one list and zeroes in another list, then combine them and use nums[:] to update the original nums list in-place.
