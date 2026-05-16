@@ -135,3 +135,18 @@ Added Search Insert Position to the DSA Tracker and pushed the update to GitHub.
 Reflection:
 
 Today I understood binary search more clearly. At first, I was trying to move from the middle outward, but then I realized that binary search starts with the whole search area and removes half of it each time. This helped me understand the role of `left`, `right`, and `mid`. I also completed important theory notes on sorting and recursion, which will help me prepare for CU Boulder algorithms.
+
+Extra Progress: Contains Duplicate II
+
+Today I also solved Contains Duplicate II. This problem extended my understanding of Contains Duplicate. Instead of only checking whether a value appeared before, I had to check whether the duplicate appeared within distance k.
+
+Main idea:
+Store each number’s latest index in a dictionary. If the same number appears again, calculate the distance between the current index and the previous index. If the distance is less than or equal to k, return True.
+
+Pattern:
+Hash Map / Index distance checking
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+
