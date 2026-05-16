@@ -22,3 +22,21 @@ Complement lookup
 
 Project improvement:
 Strengthened my dictionary understanding and became more confident with key-value logic.
+
+Code:
+
+seen = {}
+
+for i, num in enumerate(nums):
+    required = target - num
+
+    if required in seen:
+        return [seen[required], i]
+
+    seen[num] = i
+
+Pattern: Complement lookup
+Data structure: Dictionary / Hash Map
+Time Complexity: O(n)
+Space Complexity: O(n)
+Main idea: For each number, calculate required = target - num. If the required number already exists in the dictionary, return its saved index and the current index. Then store the current number with its index.

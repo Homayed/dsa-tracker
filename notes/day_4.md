@@ -18,3 +18,27 @@ One-pass tracking
 
 Project improvement:
 Search problem feature added to DSA Tracker
+
+code:
+
+class Solution(object):
+    def maxProfit(self, prices):
+        max_profit = 0
+        min_price = prices[0]
+
+        for price in prices:
+            if price < min_price:
+                min_price = price
+
+            profit = price - min_price
+
+            if profit > max_profit:
+                max_profit = profit
+
+        return max_profit
+
+Pattern: One-pass tracking
+Data structure: Variables / tracking minimum
+Time Complexity: O(n)
+Space Complexity: O(1)
+Main idea: Keep the lowest buying price so far. For each price, calculate the profit if I sell today, then update the maximum profit.
