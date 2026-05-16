@@ -70,5 +70,17 @@
         "difficulty": "Easy",
         "time_taken": 2,
         "solved_alone": "Yes"
+    },
+    {
+        "date": "2026-05-16",
+        "problem": "Merge Sorted Array",
+        "topic": "Arrays",
+        "difficulty": "Medium",
+        "time_taken": 5,
+        "solved_alone": "Yes",
+        "pattern": "Array slicing + in-place update",
+        "time_complexity": "O((m+n) log(m+n))",
+        "space_complexity": "O(m+n)",
+        "note_file": "notes/day_7.md"
     }
 ]
