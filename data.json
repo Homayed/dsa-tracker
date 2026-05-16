@@ -2,42 +2,62 @@
     {
         "date": "2026-05-12",
         "problem": "Two Sum",
-        "topic": "Arrays",
+        "topic": "Arrays / HashMap",
         "difficulty": "Easy",
         "time_taken": 30,
-        "solved_alone": "Yes"
+        "solved_alone": "Yes",
+        "pattern": "Complement lookup",
+        "time_complexity": "O(n)",
+        "space_complexity": "O(n)",
+        "note_file": "notes/day_3.md"
     },
     {
         "date": "2026-05-13",
         "problem": "Contains Duplicate",
-        "topic": "Arrays",
+        "topic": "Arrays / HashSet",
         "difficulty": "Easy",
         "time_taken": 30,
-        "solved_alone": "Yes"
+        "solved_alone": "Yes",
+        "pattern": "Seen-before checking",
+        "time_complexity": "O(n)",
+        "space_complexity": "O(n)",
+        "note_file": "notes/day_1.md"
     },
     {
         "date": "2026-05-13",
         "problem": "Valid Anagram",
-        "topic": "Arrays",
+        "topic": "String / HashMap",
         "difficulty": "Easy",
         "time_taken": 30,
-        "solved_alone": "No"
+        "solved_alone": "No",
+        "pattern": "Character frequency counting",
+        "time_complexity": "O(n)",
+        "space_complexity": "O(n)",
+        "note_file": "notes/day_2.md"
     },
     {
         "date": "2026-05-13",
-        "problem": "Right Time To Buy and Sell Stocks",
+        "problem": "Best Time to Buy and Sell Stock",
         "topic": "Arrays",
         "difficulty": "Easy",
         "time_taken": 35,
-        "solved_alone": "No"
+        "solved_alone": "No",
+        "pattern": "One-pass tracking",
+        "time_complexity": "O(n)",
+        "space_complexity": "O(1)",
+        "note_file": "notes/day_4.md"
     },
     {
         "date": "2026-05-14",
         "problem": "Valid Palindrome",
-        "topic": "Arrays",
+        "topic": "String / Two Pointers",
         "difficulty": "Easy",
         "time_taken": 30,
-        "solved_alone": "No"
+        "solved_alone": "No",
+        "pattern": "Two Pointers",
+        "time_complexity": "O(n)",
+        "space_complexity": "O(n)",
+        "note_file": "notes/day_5.md"
     },
     {
         "date": "2026-05-15",
@@ -45,15 +65,23 @@
         "topic": "Arrays",
         "difficulty": "Easy",
         "time_taken": 35,
-        "solved_alone": "No"
+        "solved_alone": "No",
+        "pattern": "In-place array modification",
+        "time_complexity": "O(n)",
+        "space_complexity": "O(n)",
+        "note_file": "notes/day_6.md"
     },
     {
         "date": "2026-05-15",
-        "problem": "Maximum subarray",
-        "topic": "arrays",
-        "difficulty": "Easy",
+        "problem": "Maximum Subarray",
+        "topic": "Arrays",
+        "difficulty": "Medium",
         "time_taken": 35,
-        "solved_alone": "Yes"
+        "solved_alone": "Yes",
+        "pattern": "Kadane’s Algorithm / Running Sum",
+        "time_complexity": "O(n)",
+        "space_complexity": "O(1)",
+        "note_file": "notes/day_8.md"
     },
     {
         "date": "2026-05-15",
@@ -61,7 +89,11 @@
         "topic": "Arrays",
         "difficulty": "Easy",
         "time_taken": 5,
-        "solved_alone": "Yes"
+        "solved_alone": "Yes",
+        "pattern": "Array filtering + in-place update",
+        "time_complexity": "O(n)",
+        "space_complexity": "O(n)",
+        "note_file": "notes/day_8.md"
     },
     {
         "date": "2026-05-15",
@@ -69,13 +101,17 @@
         "topic": "Arrays",
         "difficulty": "Easy",
         "time_taken": 2,
-        "solved_alone": "Yes"
+        "solved_alone": "Yes",
+        "pattern": "Two Pointers / Overwrite Position",
+        "time_complexity": "O(n)",
+        "space_complexity": "O(1)",
+        "note_file": "notes/day_8.md"
     },
     {
         "date": "2026-05-16",
         "problem": "Merge Sorted Array",
         "topic": "Arrays",
-        "difficulty": "Medium",
+        "difficulty": "Easy",
         "time_taken": 5,
         "solved_alone": "Yes",
         "pattern": "Array slicing + in-place update",
