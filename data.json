@@ -142,5 +142,17 @@
         "time_complexity": "O(n)",
         "space_complexity": "O(n)",
         "note_file": "notes/day_9.md"
+    },
+    {
+        "date": "2026-05-16",
+        "problem": "Product of Array Except Self",
+        "topic": "Arrays / Prefix-Suffix",
+        "difficulty": "Medium",
+        "time_taken": 45,
+        "solved_alone": "No",
+        "pattern": "Prefix / Suffix Product",
+        "time_complexity": " O(n)",
+        "space_complexity": "O(1) extra space, excluding output array",
+        "note_file": "notes/day_10.md"
     }
 ]
