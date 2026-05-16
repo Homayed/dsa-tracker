@@ -113,7 +113,7 @@ This brought my total tracked solved problems to **10**.
 
 Today was important because I started seeing repeated patterns across array problems. I understood that some problems need a running sum, some need in-place replacement, and some need a pointer to track the next valid position. I also learned that my first solution can be logically correct but not always optimal. The goal is to first understand the problem clearly, then improve the solution step by step.
 
-Code:
+Code(max_sub_array):
 
 class Solution(object):
     def maxSubArray(self, nums):
@@ -136,3 +136,40 @@ Data structure: Variables
 Time Complexity: O(n)
 Space Complexity: O(1)
 Main idea: Keep adding numbers to current_sum, update max_sum when a better sum is found, and reset current_sum only when it becomes negative.
+
+code(remove_element):
+lst = []
+
+for num in nums:
+    if num != val:
+        lst.append(num)
+
+nums[:] = lst
+return len(nums)
+
+Pattern: Array filtering + in-place update
+Data structure: List
+Time Complexity: O(n)
+Space Complexity: O(n)
+Main idea: Keep only the numbers that are not equal to val, replace the original nums using nums[:], and return the new length.
+
+code(rmv_duplicate_frm_sorted_array):
+
+if not nums:
+            return 0
+
+        k = 1
+
+        for i in range(1, len(nums)):
+            if nums[i] != nums[k - 1]:
+                nums[k] = nums[i]
+                k += 1
+
+        return k
+
+Pattern: Two Pointers / Overwrite Position
+Data structure: Variables
+Time Complexity: O(n)
+Space Complexity: O(1)
+Main idea: Use i to scan the array and k to mark where the next unique number should be placed. Since the array is sorted, duplicates are next to each other.
+
