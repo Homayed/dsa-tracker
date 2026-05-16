@@ -22,3 +22,37 @@ Character frequency counting
 
 Project improvement:
 Improved my understanding of dictionaries, which will help me build better features in my DSA Tracker.
+
+code:
+
+class Solution(object):
+    def isAnagram(self, s, t):
+        """
+        :type s: str
+        :type t: str
+        :rtype: bool
+        """
+        counting = {}
+        for c in s:
+            if c not in counting:
+                counting[c] = 1
+            else:
+                counting[c] += 1
+        for c in t:
+            if c not in counting:
+                return False
+            counting[c] -= 1
+
+
+            
+        for c in counting:
+            if counting[c] != 0:
+                return False
+        return True
+
+
+Pattern: Character frequency counting
+Data structure: Dictionary / Hash Map
+Time Complexity: O(n)
+Space Complexity: O(n)
+Main idea: Count characters in s, subtract characters from t, then check if all counts become zero.
