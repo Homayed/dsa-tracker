@@ -78,7 +78,7 @@
         "difficulty": "Medium",
         "time_taken": 35,
         "solved_alone": "Yes",
-        "pattern": "Kadane’s Algorithm / Running Sum",
+        "pattern": "Kadane\u2019s Algorithm / Running Sum",
         "time_complexity": "O(n)",
         "space_complexity": "O(1)",
         "note_file": "notes/day_8.md"
@@ -118,5 +118,17 @@
         "time_complexity": "O((m+n) log(m+n))",
         "space_complexity": "O(m+n)",
         "note_file": "notes/day_7.md"
+    },
+    {
+        "date": "2026-05-16",
+        "problem": "Search Insert Position",
+        "topic": "Arrays / Binary Search",
+        "difficulty": "Easy",
+        "time_taken": 20,
+        "solved_alone": "No",
+        "pattern": "Binary Search",
+        "time_complexity": "O(log n)",
+        "space_complexity": "O(1)",
+        "note_file": "notes/day_9.md"
     }
 ]
