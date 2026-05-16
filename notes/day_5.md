@@ -35,3 +35,31 @@ Big-O understanding:
 
 Reflection:
 Today I understood that not every problem should be solved directly on the original input. Sometimes I need to clean or prepare the data first. I also learned how two pointers work by comparing characters from both sides of a string. This problem helped me become more comfortable with string processing, loops, indexes, and pointer movement.
+
+Code:
+
+class Solution(object):
+    def isPalindrome(self, s):
+        s1 = []
+
+        for c in s:
+            if c.isalnum():
+                s1.append(c.lower())
+
+        left = 0
+        right = len(s1) - 1
+
+        while left < right:
+            if s1[left] != s1[right]:
+                return False
+
+            left += 1
+            right -= 1
+
+        return True
+
+Pattern: Two Pointers
+Data structure: Cleaned list / string
+Time Complexity: O(n)
+Space Complexity: O(n)
+Main idea: Clean the string by keeping only letters and numbers, convert everything to lowercase, then compare characters from the left and right side while moving inward.
