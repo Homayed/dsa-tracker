@@ -20,3 +20,24 @@ Seen-before checking
 
 Project improvement:
 Started building consistency with LeetCode and began connecting DSA problems with my tracker project.
+
+Code:
+
+class Solution(object):
+    def containsDuplicate(self, nums):
+        seen = {}
+
+        for num in nums:
+            if num in seen:
+                return True
+
+            seen[num] = 1
+
+        return False
+
+Pattern: Seen-before checking
+Data structure: Dictionary / Set
+Time Complexity: O(n)
+Space Complexity: O(n)
+Main idea: If a number appears again, return True immediately.
+
