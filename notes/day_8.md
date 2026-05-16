@@ -112,3 +112,27 @@ This brought my total tracked solved problems to **10**.
 ## Reflection
 
 Today was important because I started seeing repeated patterns across array problems. I understood that some problems need a running sum, some need in-place replacement, and some need a pointer to track the next valid position. I also learned that my first solution can be logically correct but not always optimal. The goal is to first understand the problem clearly, then improve the solution step by step.
+
+Code:
+
+class Solution(object):
+    def maxSubArray(self, nums):
+        current_sum = 0
+        max_sum = nums[0]
+
+        for num in nums:
+            current_sum = current_sum + num
+
+            if current_sum > max_sum:
+                max_sum = current_sum
+
+            if current_sum < 0:
+                current_sum = 0
+
+        return max_sum
+
+Pattern: Kadane’s Algorithm / Running Sum
+Data structure: Variables
+Time Complexity: O(n)
+Space Complexity: O(1)
+Main idea: Keep adding numbers to current_sum, update max_sum when a better sum is found, and reset current_sum only when it becomes negative.
