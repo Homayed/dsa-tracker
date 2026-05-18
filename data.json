@@ -154,5 +154,17 @@
         "time_complexity": " O(n)",
         "space_complexity": "O(1) extra space, excluding output array",
         "note_file": "notes/day_10.md"
+    },
+    {
+        "date": "2026-05-18",
+        "problem": "Group Anagrams",
+        "topic": "Arrays / HashMap / String",
+        "difficulty": "Medium",
+        "time_taken": 25,
+        "solved_alone": "Yes",
+        "pattern": "HashMap / Grouping by key",
+        "time_complexity": "O(n * k log k)",
+        "space_complexity": "O(n * k)",
+        "note_file": "notes/day_11.md"
     }
 ]
