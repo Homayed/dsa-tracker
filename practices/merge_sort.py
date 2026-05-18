@@ -20,9 +20,7 @@ def merge_sort(arr):
     if len(arr)<=1:
         return arr
     # find middle
-    left = 0
-    right = len(arr)
-    mid = (left+right)//2
+    mid = len(arr)//2
     # split left and right
     arr_left = arr[:mid]
     arr_right = arr[mid:]
