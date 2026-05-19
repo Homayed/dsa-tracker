@@ -70,6 +70,31 @@ def search_problem():
     if found == False:
         print("\nNo problem named this is found while searching\n")
 
+def show_stats():
+    data = load_data()
+
+    total = len(data)
+    easy = 0
+    medium = 0
+    hard = 0
+
+    for item in data:
+        difficulty = item.get("difficulty", "").lower().strip()
+
+        if difficulty == "easy":
+            easy += 1
+        elif difficulty == "medium":
+            medium += 1
+        elif difficulty == "hard":
+            hard += 1
+
+    print("\n===== DSA Tracker Stats =====")
+    print("Total Solved:", total)
+    print("Easy:", easy)
+    print("Medium:", medium)
+    print("Hard:", hard)
+    print("=============================\n")
+
 
 
 
