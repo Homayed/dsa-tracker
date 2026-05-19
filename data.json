@@ -178,5 +178,29 @@
         "time_complexity": "O(n)",
         "space_complexity": "O(1)",
         "note_file": "notes/day_11.md"
+    },
+    {
+        "date": "2026-05-20",
+        "problem": "Top K Frequent Elements",
+        "topic": "Arrays & Hashing",
+        "difficulty": "Medium",
+        "time_taken": 20,
+        "solved_alone": "Yes",
+        "pattern": "Hash Map + Sorting / Min Heap / Bucket Sort",
+        "time_complexity": "O(n + m log k)",
+        "space_complexity": "O(n)",
+        "note_file": "notes/day_12.md"
+    },
+    {
+        "date": "2026-05-20",
+        "problem": "Valid Parentheses",
+        "topic": "Stack",
+        "difficulty": "Easy",
+        "time_taken": 20,
+        "solved_alone": "Yes",
+        "pattern": "Stack + Matching Pairs",
+        "time_complexity": "O(n)",
+        "space_complexity": "O(n)",
+        "note_file": "notes/day_12.md"
     }
 ]
