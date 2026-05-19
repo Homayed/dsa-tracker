@@ -166,5 +166,17 @@
         "time_complexity": "O(n * k log k)",
         "space_complexity": "O(n * k)",
         "note_file": "notes/day_11.md"
+    },
+    {
+        "date": "2026-05-19",
+        "problem": "Two Sum II - Input Array Is Sorted",
+        "topic": "Arrays / Two Pointers",
+        "difficulty": "Medium",
+        "time_taken": 5,
+        "solved_alone": "Yes",
+        "pattern": "Two Pointers",
+        "time_complexity": "O(n)",
+        "space_complexity": "O(1)",
+        "note_file": "notes/day_11.md"
     }
 ]

@@ -31,3 +31,16 @@ At first, I used the index or the sorted word itself as the value. Then I unders
 ## Final lesson
 
 When multiple items belong together, use a dictionary where each key maps to a list.
+
+## Problem: Two Sum II - Input Array Is Sorted
+
+Pattern: Two Pointers  
+Data structure: Sorted Array  
+Time Complexity: O(n)  
+Space Complexity: O(1)
+
+Main idea:
+Because the array is sorted, I can use left and right pointers. If the current sum is too big, move the right pointer left. If the current sum is too small, move the left pointer right.
+
+Main lesson:
+Sorted input is a clue for two pointers or binary search.
