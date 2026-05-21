@@ -202,5 +202,29 @@
         "time_complexity": "O(n)",
         "space_complexity": "O(n)",
         "note_file": "notes/day_12.md"
+    },
+    {
+        "date": "2026-05-21",
+        "problem": "Longest Consecutive Sequence",
+        "topic": "Arrays & Hashing",
+        "difficulty": "Medium",
+        "time_taken": 25,
+        "solved_alone": "Yes",
+        "pattern": "Hash Set",
+        "time_complexity": "O(n)",
+        "space_complexity": " O(n)",
+        "note_file": "notes/day_13.md"
+    },
+    {
+        "date": "2026-05-22",
+        "problem": "Min Stack",
+        "topic": "Stack",
+        "difficulty": "Medium",
+        "time_taken": 25,
+        "solved_alone": "Yes",
+        "pattern": "Stack Design / Two Stacks",
+        "time_complexity": "O(1) for push, pop, top, getMin",
+        "space_complexity": "O(n)",
+        "note_file": "notes/day_13.md"
     }
 ]
