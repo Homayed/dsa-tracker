@@ -226,5 +226,29 @@
         "time_complexity": "O(1) for push, pop, top, getMin",
         "space_complexity": "O(n)",
         "note_file": "notes/day_13.md"
+    },
+    {
+        "date": "2026-05-23",
+        "problem": "Evaluate Reverse Polish Notation",
+        "topic": "Stack",
+        "difficulty": "Medium",
+        "time_taken": 20,
+        "solved_alone": "Yes",
+        "pattern": "tack / Expression Evaluation",
+        "time_complexity": "O(n)",
+        "space_complexity": "O(n)",
+        "note_file": "notes/day_14.md"
+    },
+    {
+        "date": "2026-05-23",
+        "problem": "3Sum",
+        "topic": "Two Pointers",
+        "difficulty": "Medium",
+        "time_taken": 35,
+        "solved_alone": "Yes",
+        "pattern": "Sort + Fixed Pointer + Two Pointers",
+        "time_complexity": "O(n\u00b2)",
+        "space_complexity": "O(1)",
+        "note_file": "notes/day_14.md"
     }
 ]
