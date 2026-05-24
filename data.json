@@ -262,5 +262,17 @@
         "time_complexity": "O(n)",
         "space_complexity": "O(1)",
         "note_file": "notes/day_15.md"
+    },
+    {
+        "date": "2026-05-25",
+        "problem": "Longest Substring Without Repeating Characters",
+        "topic": "Sliding Window",
+        "difficulty": "Medium",
+        "time_taken": 40,
+        "solved_alone": "No",
+        "pattern": "Variable-size Sliding Window + Hash Set",
+        "time_complexity": "O(n)",
+        "space_complexity": "O(n)",
+        "note_file": "notes/day_16.md"
     }
 ]
