@@ -250,5 +250,17 @@
         "time_complexity": "O(n\u00b2)",
         "space_complexity": "O(1)",
         "note_file": "notes/day_14.md"
+    },
+    {
+        "date": "2026-05-24",
+        "problem": "Container With Most Water",
+        "topic": "Two Pointers",
+        "difficulty": "Medium",
+        "time_taken": 20,
+        "solved_alone": "Yes",
+        "pattern": "Left pointer + right pointer / move smaller height",
+        "time_complexity": "O(n)",
+        "space_complexity": "O(1)",
+        "note_file": "notes/day_15.md"
     }
 ]
