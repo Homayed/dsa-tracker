@@ -95,6 +95,33 @@ def show_stats():
     print("Hard:", hard)
     print("=============================\n")
 
+def count_by_topic():
+    data = load_data()
+
+    if not data:
+        print("\nNo problems found.\n")
+        return
+
+    topic_count = {}
+
+    for problem in data:
+        topic = problem.get("topic", "Unknown").strip()
+
+        if topic == "":
+            topic = "Unknown"
+
+        if topic not in topic_count:
+            topic_count[topic] = 1
+        else:
+            topic_count[topic] += 1
+
+    print("\n===== Problems Count By Topic =====")
+
+    for topic, count in topic_count.items():
+        print(f"{topic}: {count}")
+
+    print("===================================\n")
+
 
 
 

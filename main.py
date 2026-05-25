@@ -1,4 +1,4 @@
-from tracker import add_problem, view_all_problems, delete_problem, search_problem, show_stats
+from tracker import add_problem, view_all_problems, delete_problem, search_problem, show_stats, count_by_topic
 
 
 def menu():
@@ -11,9 +11,10 @@ def menu():
         print("3.Delete Problem")
         print("4.Search Problem")
         print("5.Show Stats")
-        print("6.Exit")
+        print("6.Problems Count By Topic")
+        print("7.Exit")
 
-        choice = input("\n Enter choice: 1/2/3/4/5/6")
+        choice = input("\n Enter choice: 1/2/3/4/5/6/7")
         if choice == '1':
             add_problem()
             break
@@ -30,6 +31,9 @@ def menu():
             search_problem()
             break
         if choice == '6':
+            count_by_topic()
+            break
+        if choice == '7':
             break
         else:
             print("\n Invalid choice. Try again")
