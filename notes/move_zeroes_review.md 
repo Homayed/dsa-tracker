@@ -1,0 +1,12 @@
+Previous approach:
+I used slicing/filtering to create a new arranged list and copied it back using nums[:].
+
+New approach:
+I used two pointers and swapped non-zero values into the front in-place.
+
+Why this is better:
+It uses O(1) extra space and teaches the in-place two-pointer pattern.
+
+Key understanding:
+right scans every element.
+left marks the next position for a non-zero number.
